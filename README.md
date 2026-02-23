@@ -1,62 +1,70 @@
-# Teste de Software - APP Mobile (Prudential)
+# 📱 Teste de Software - APP Mobile (Prudential LMS)
 
-Este projeto documenta minha experiência como Analista de Testes na validação do aplicativo Prudential LMS, disponível para as plataformas iOS (iPhone e iPad) e Android. O aplicativo oferece cursos e atividades educacionais para os usuários, proporcionando uma experiência interativa e acessível. Os testes realizados garantiram a qualidade e a funcionalidade do sistema, alinhando-se aos requisitos e objetivos do projeto. O projeto teve uma duração de 2 anos, de 2021 a 2023, período durante o qual fui responsável pela execução de testes contínuos para assegurar o sucesso da entrega.
+![QA Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen)
+![Platform](https://img.shields.io/badge/Plataforma-iOS%20%7C%20Android-lightgrey)
+![Years](https://img.shields.io/badge/Dura%C3%A7%C3%A3o-2%20Anos-blue)
 
-## Objetivo do Projeto
-O principal objetivo foi validar o funcionamento do aplicativo LMS da Prudential, garantindo a entrega de cursos virtuais, trilhas de cursos, vídeos, atividades em PDF e eBooks. Além disso, o foco esteve na usabilidade, performance e alinhamento com as especificações fornecidas.
+Este projeto documenta minha atuação como **Analista de Testes (QA)** na validação do aplicativo **Prudential LMS**, uma plataforma educacional robusta disponível para iOS (iPhone e iPad) e Android. 
 
----
-
-## Funcionalidades Testadas
-As principais funcionalidades testadas incluem:  
-- **Validação de Cursos Virtuais:** Testes detalhados para assegurar o correto funcionamento das etapas dos cursos.  
-- **Validação de Trilhas de Cursos:** Garantia de que os cursos conectados e sequenciais funcionavam conforme o esperado.  
-- **Validação de Vídeos:** Execução, pausa, carregamento e sincronização dos vídeos.  
-- **Validação de Atividades em PDF:** Abrir, visualizar e interagir com arquivos em PDF disponíveis no app.  
-- **Validação de eBooks:** Leitura fluida e responsiva de conteúdos educativos em formato de eBook.  
+Durante o período de **2021 a 2023**, fui responsável pela garantia de qualidade (QA) de ponta a ponta, assegurando que cursos, trilhas de aprendizado e materiais interativos fossem entregues com estabilidade e alta performance.
 
 ---
 
-## Telas Testadas
-Diversas telas e funcionalidades do aplicativo foram validadas para garantir uma experiência de uso intuitiva e livre de falhas, incluindo:  
-- **[Página de Login](/Imagens/login.jpg)**  
-- **[Tela de Splash](/Imagens/splash.png)**
-- **[Página Inicial](/Imagens/home.jpg)** 
-- **[Painel de Atividades](/Imagens/conteudos.jpg)**  
-- **[Fluxos de Cursos e Avaliações](/Imagens/cursos.jpg)**  
-- **[Navegação de Trilhas de Cursos](/Imagens/trilhas.jpg)**  
-- **[Exibição e Reprodução de Vídeos](/Imagens/video.jpg)**  
-- **[Acessibilidade de Atividades em PDF](/Imagens/atividades.jpg)**  
-- **[Leitura de eBooks](/Imagens/ebook.jpg)**  
-- **Configurações e Perfil do Usuário**  
+## 🎯 Objetivo do Projeto
+Validar o ecossistema do aplicativo LMS, garantindo a integridade da jornada do usuário desde o login até a conclusão de cursos. O foco principal foi a conformidade com os requisitos de negócio, usabilidade fluida e performance em diferentes dispositivos mobile.
 
 ---
 
-## Ferramentas Utilizadas
-Durante o projeto, utilizei ferramentas e dispositivos para garantir a cobertura de testes e a confiabilidade dos resultados:  
-- **Dispositivos iOS:** iPhone e iPad para validação de compatibilidade e usabilidade.  
-- **Dispositivos Android:** Testes abrangentes em diferentes dispositivos e versões do sistema operacional.  
-- **Jira:** Gestão de tarefas e controle de bugs identificados.  
-- **Planilhas Excel:** Organização dos cenários de teste, bugs encontrados e melhorias sugeridas.  
+## 🛠️ Ferramentas e Tecnologias
+Para garantir a cobertura total dos testes, utilizei o seguinte stack:
+
+* **Gestão e Bugs:** Jira (Workflow Ágil).
+* **Documentação:** Microsoft Excel (Matriz de rastreabilidade e cenários de teste).
+* **Design/UX:** Figma (Validação de interface e testes de fidelidade visual).
+* **Dispositivos Físicos:** * **iOS:** iPhone e iPad (diversas versões de iOS).
+    * **Android:** Smartphones de diferentes fabricantes para testes de fragmentação de tela.
 
 ---
 
-## Resultados
-A execução dos testes contribuiu significativamente para:  
-- **Garantir a funcionalidade:** Validação de todas as funcionalidades descritas nos requisitos.  
-- **Melhoria na Experiência do Usuário:** Identificação e resolução de problemas que poderiam impactar a usabilidade.  
-- **Redução de Bugs:** Documentação detalhada e comunicação eficaz com a equipe de desenvolvimento para correções rápidas.  
+## 🔍 Funcionalidades e Tipos de Teste
+Realizei uma abordagem mista de testes manuais e exploratórios para cobrir todas as camadas do app:
+
+### **Escopo de Validação**
+* **Cursos e Trilhas:** Fluxos sequenciais e lógicos de aprendizado.
+* **Multimídia:** Player de vídeo (play, pause, buffering e sincronização).
+* **Documentos:** Visualização e interação com PDFs e eBooks (responsividade).
+* **Sincronização:** Validação de progresso do usuário entre diferentes dispositivos.
+
+### **Tipos de Teste Aplicados**
+* **Testes de Regressão:** Realizados a cada nova sprint para garantir que atualizações não gerassem bugs em funções legadas.
+* **Testes de Interface (UI):** Validação "Pixel Perfect" baseada nos protótipos do Figma.
+* **Testes de Usabilidade (UX):** Foco na jornada do aluno e facilidade de navegação.
+* **Testes Exploratórios:** Sessões focadas em encontrar comportamentos inesperados fora do fluxo padrão.
 
 ---
 
-## Documentação dos Cenários de Teste
-Os testes foram realizados de forma ágil, seguindo os protótipos fornecidos no Figma como referência para testes de aceitação. Essa abordagem garantiu uma validação rápida e eficaz das funcionalidades, alinhando-se diretamente às expectativas do design e requisitos do projeto.  
+## 🖼️ Evidências de Telas
+Abaixo, os fluxos principais validados durante o ciclo de vida do projeto:
 
-Além disso, o foco em **testes exploratórios** permitiu identificar comportamentos inesperados e possíveis falhas, explorando as funcionalidades de maneira não linear para garantir a qualidade geral do aplicativo.  
-
+| Tela | Link para Evidência |
+| :--- | :--- |
+| **Login & Splash** | [Visualizar](/Imagens/login.jpg) / [Splash](/Imagens/splash.png) |
+| **Home & Conteúdos** | [Visualizar](/Imagens/home.jpg) / [Painel](/Imagens/conteudos.jpg) |
+| **Cursos & Trilhas** | [Fluxos](/Imagens/cursos.jpg) / [Trilhas](/Imagens/trilhas.jpg) |
+| **Player de Vídeo** | [Visualizar](/Imagens/video.jpg) |
+| **PDF & eBooks** | [Atividades](/Imagens/atividades.jpg) / [Leitura](/Imagens/ebook.jpg) |
 
 ---
 
-## Conclusão
-Minha atuação como Analista de Testes no aplicativo Prudential LMS APP reforçou meu compromisso com a qualidade e a experiência do usuário. Por meio de testes abrangentes e relatórios detalhados, colaborei diretamente para o sucesso do projeto, garantindo um aplicativo confiável e de alta qualidade.  
+## 📈 Resultados Alcançados
+* **Estabilidade do Sistema:** Redução significativa no índice de bugs críticos em produção através de ciclos de regressão rigorosos.
+* **Qualidade de Entrega:** Alinhamento de 100% entre o desenvolvimento final e os protótipos de UX/UI.
+* **Documentação Eficiente:** Criação de uma base de cenários de teste que facilitou o onboarding de novos membros na equipe.
 
+---
+
+## 🤝 Conclusão
+Minha atuação no **Prudential LMS** reforçou minha expertise em testes mobile, lidando com as particularidades de cada sistema operacional e garantindo uma experiência educacional sem fricção para o usuário final.
+
+---
+**Desenvolvido por Bruno Salzani** [Acessar Repositório Original](https://github.com/bruno-salzani/manual-test-prudential)
