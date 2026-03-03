@@ -1,222 +1,233 @@
-# 📱 Teste de Software - APP Mobile (Prudential LMS)
+# 📱 Mobile QA Project — Prudential LMS
 
-![QA Status](https://img.shields.io/badge/Status-Concluído-brightgreen)  
-![Platform](https://img.shields.io/badge/Plataforma-iOS%20%7C%20Android-lightgrey)  
-![Years](https://img.shields.io/badge/Duração-2%20Anos-blue)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Platform](https://img.shields.io/badge/Platform-iOS%20%7C%20Android-lightgrey)
+![Duration](https://img.shields.io/badge/Duration-2%20Years-blue)
+![Role](https://img.shields.io/badge/Role-QA%20Analyst-orange)
 
-Este repositório documenta minha atuação como **Analista de Testes (QA)** na validação do aplicativo Prudential LMS, plataforma educacional corporativa distribuída para **iOS (iPhone/iPad)** e **Android**.
+This repository documents my performance as a **QA Analyst** in the validation of the Prudential LMS mobile application, a corporate learning platform available for **iOS (iPhone/iPad)** and **Android**.
 
-Atuei de 2021 a 2023 garantindo qualidade ponta a ponta, cobrindo requisitos funcionais, experiência do usuário, estabilidade, sincronização entre dispositivos e mitigação de riscos em produção.
-
----
-
-## 🎯 Objetivo do Projeto
-
-Garantir a integridade completa da jornada do usuário:
-
-Login → Consumo de Conteúdo → Interação Multimídia → Sincronização → Conclusão de Cursos
-
-Foco principal:
-
-- Conformidade com requisitos de negócio  
-- Experiência fluida e intuitiva  
-- Consistência visual (Pixel Perfect)  
-- Estabilidade em múltiplos dispositivos  
-- Prevenção de regressões  
+From 2021 to 2023, I was responsible for ensuring end-to-end quality, covering functional validation, user experience, cross-device synchronization, stability, and production risk mitigation.
 
 ---
 
-## 🛠️ Stack Utilizada
+# 🎯 Project Objective
 
-### Gestão e Processos
+Ensure full integrity of the user journey:
 
-- Jira (Workflow Ágil com controle de severidade)
-- Participação em refinamentos técnicos com PO e desenvolvedores
-- Definição de critério formal de Go/No-Go para releases
+Login → Content Consumption → Multimedia Interaction → Synchronization → Course Completion
 
-### Documentação
+## Main Focus
 
-- Microsoft Excel (RTM – Matriz de Rastreabilidade)
-- Casos de teste estruturados por prioridade
-- Checklist de regressão mobile
-
-### Design & Validação Visual
-
-- Figma (validação de fidelidade visual e inconsistências de UI)
-
-### Dispositivos Físicos
-
-#### iOS
-
-- iPhone (múltiplas versões de iOS)
-- iPad (validação de responsividade e layout adaptativo)
-
-#### Android
-
-- Dispositivos de diferentes fabricantes
-- Testes em múltiplas resoluções e densidades (fragmentação)
+- Business requirement compliance  
+- Seamless and intuitive user experience  
+- Pixel Perfect UI validation  
+- Cross-device stability  
+- Regression prevention  
+- Release predictability  
 
 ---
 
-## 🧠 Estratégia de Testes
+# 🛠️ Tools & Stack
 
-### Estrutura de Regressão
+## 📌 Management & Process
 
-- **Smoke Test:** Fluxos críticos (login, abertura de curso, player, sincronização)
-- **Regressão Completa:** Executada ao final de cada sprint
-- **Validação Cross-Platform:** Comparação de comportamento entre iOS e Android
+- Jira (Agile workflow with severity control)
+- Sprint participation (Refinement, Planning, Review)
+- Formal Go/No-Go release criteria definition
+- Risk-based testing approach
 
-**Critério de bloqueio de release:**
+## 📄 Documentation
 
-- Nenhum bug Blocker ou Critical aberto
-- Funcionalidades core estáveis
-- Sincronização validada em dispositivos distintos
+- Excel (RTM — Requirements Traceability Matrix)
+- Structured test cases by priority
+- Mobile regression checklist
+- Sprint validation reports
 
----
+## 🎨 UI Validation
 
-### Classificação de Severidade
+- Figma (Design fidelity and UI consistency validation)
+- Pixel Perfect comparison
 
-- **Blocker:** Impede uso do sistema
-- **Critical:** Afeta fluxo principal
-- **Major:** Impacta experiência, mas possui workaround
-- **Minor:** Ajustes visuais ou pequenos comportamentos
+## 📱 Physical Devices Testing
 
----
+### iOS
+- iPhone (multiple iOS versions)
+- iPad (responsive layout validation)
 
-### Estratégia Mobile Específica
-
-Foram aplicados testes focados nos principais riscos de ambiente mobile:
-
-- Interrupção por chamada telefônica
-- App em background e retomada de sessão
-- Rotação de tela
-- Alternância entre Wi-Fi e dados móveis
-- Testes em rede instável
-- Validação de cache e sessão expirada
-- Atualização de versão sem perda de progresso
-- Sincronização de progresso entre dispositivos
+### Android
+- Multiple manufacturers
+- Different screen sizes and pixel densities
+- Fragmentation-focused validation
 
 ---
 
-## 🔍 Escopo Funcional Validado
+# 🧠 Testing Strategy
 
-### 📚 Cursos e Trilhas
+## 🔁 Regression Structure
 
-- Fluxos sequenciais obrigatórios
-- Regras de bloqueio/desbloqueio
-- Controle de progresso
-- Validação de regras de conclusão
+- **Smoke Tests:** Critical flows (login, course access, player, sync)
+- **Full Regression:** End of every sprint
+- **Cross-Platform Validation:** Behavioral comparison between iOS and Android
+- **Focused Risk Regression:** Areas historically prone to failure
 
-### 🎥 Player Multimídia
+## 🚫 Release Blocking Criteria
 
-- Play e Pause
-- Buffering
-- Sincronização de tempo assistido
-- Retomada automática após interrupção
-- Testes em rede instável
-
-### 📄 PDFs e eBooks
-
-- Renderização correta
-- Responsividade
-- Scroll e navegação
-- Interação com atividades integradas
-
-### 🔄 Sincronização
-
-- Continuidade de progresso entre dispositivos
-- Validação de consistência backend
-- Testes de conflito de dados
-- Validação pós-login em novo dispositivo
+- No Blocker or Critical defects open
+- Core flows fully validated
+- Synchronization verified across devices
+- No regression in high-risk areas
 
 ---
 
-## 🧪 Tipos de Teste Aplicados
+## ⚠️ Severity Classification
 
-- Testes Funcionais
-- Testes de Regressão
-- Testes de Interface (UI Pixel Perfect)
-- Testes de Usabilidade (UX)
-- Testes Exploratórios Estruturados
-- Testes de Compatibilidade
-- Testes de Interrupção
-- Testes de Rede
+- **Blocker:** System unusable
+- **Critical:** Breaks main user flow
+- **Major:** Affects experience but has workaround
+- **Minor:** UI adjustments or minor behavior issues
 
 ---
 
-## 📊 Gestão de Riscos
+# 📲 Mobile-Specific Test Strategy
 
-### Principais Riscos Identificados
+Applied risk-based testing focused on mobile environment constraints:
 
-- Inconsistência entre iOS e Android
-- Falha na sincronização de progresso
-- Perda de sessão
-- Quebra de layout em tablets
-- Problemas de buffering em redes instáveis
-
-### Mitigações Aplicadas
-
-- Checklists específicos por sistema operacional
-- Execução regressiva focada em áreas críticas
-- Testes comparativos lado a lado
-- Validação antecipada em ambientes de homologação
+- Incoming call interruption
+- App background / foreground recovery
+- Screen rotation handling
+- Wi-Fi ↔ Mobile data switching
+- Network instability simulation
+- Cache validation
+- Session expiration handling
+- App version update without progress loss
+- Cross-device progress synchronization
 
 ---
 
-## 🖼️ Evidências de Telas
+# 🔍 Functional Scope Validated
 
-| Tela | Evidência |
-|------|-----------|
-| Login | /Imagens/login.jpg |
-| Splash | /Imagens/splash.png |
-| Home | /Imagens/home.jpg |
-| Conteúdos | /Imagens/conteudos.jpg |
-| Cursos | /Imagens/cursos.jpg |
-| Trilhas | /Imagens/trilhas.jpg |
-| Player | /Imagens/video.jpg |
-| Atividades | /Imagens/atividades.jpg |
-| eBook | /Imagens/ebook.jpg |
+## 📚 Courses & Learning Paths
 
----
+- Sequential flow enforcement
+- Unlock/lock rules
+- Progress tracking
+- Completion validation rules
 
-## 📈 Resultados Alcançados
+## 🎥 Multimedia Player
 
-- Redução aproximada de 40% nos bugs críticos reportados em produção após formalização da regressão.
-- Cobertura funcional superior a 95% dos requisitos mapeados via RTM.
-- Redução significativa de retrabalho da equipe de desenvolvimento.
-- Aumento da previsibilidade de release através de critérios formais de aprovação.
-- Padronização de processos que aceleraram o onboarding de novos QAs.
+- Play / Pause behavior
+- Buffering validation
+- Watched time synchronization
+- Resume after interruption
+- Unstable network scenarios
 
----
+## 📄 PDFs & eBooks
 
-## 🧾 Artefatos Produzidos
+- Proper rendering
+- Responsiveness
+- Scroll and navigation validation
+- Interactive activity validation
 
-- Matriz de Rastreabilidade (RTM)
-- Casos de Teste Estruturados
-- Checklist de Regressão Mobile
-- Relatórios de Validação por Sprint
-- Registro detalhado de bugs com evidências
+## 🔄 Synchronization
+
+- Progress continuity across devices
+- Backend consistency validation
+- Conflict resolution scenarios
+- Login validation on new device
 
 ---
 
-## 🚀 Diferenciais Técnicos
+# 🧪 Test Types Applied
 
-- Forte atuação em fragmentação Android
-- Validação detalhada de sincronização entre dispositivos
-- Testes aprofundados de interrupção e retomada
-- Mentalidade orientada a risco
-- Foco preventivo (bug identificado antes de chegar em produção)
+- Functional Testing
+- Regression Testing
+- UI Validation (Pixel Perfect)
+- UX Testing
+- Structured Exploratory Testing
+- Compatibility Testing
+- Interruption Testing
+- Network Testing
+- Risk-Based Testing
 
 ---
 
-## 🤝 Conclusão
+# 📊 Risk Management
 
-A atuação no Prudential LMS consolidou minha especialização em QA Mobile, com domínio de:
+## 🔎 Main Risks Identified
 
-- Estratégia de regressão
-- Gestão de risco
-- Fragmentação de dispositivos
-- Validação cross-platform
-- Experiência do usuário
+- iOS vs Android behavioral inconsistencies
+- Progress synchronization failures
+- Session loss
+- Tablet layout breaks
+- Buffering failures in unstable networks
 
-Projeto conduzido com foco em estabilidade, previsibilidade e qualidade contínua.
+## 🛡️ Mitigation Strategies
+
+- OS-specific regression checklists
+- Critical-flow focused testing
+- Side-by-side platform comparison
+- Early validation in staging environments
+- Formalized release approval criteria
+
+---
+
+# 🖼️ Application Screens
+
+| Screen | Evidence |
+|--------|----------|
+| Login | `/Imagens/login.jpg` |
+| Splash | `/Imagens/splash.png` |
+| Home | `/Imagens/home.jpg` |
+| Contents | `/Imagens/conteudos.jpg` |
+| Courses | `/Imagens/cursos.jpg` |
+| Learning Paths | `/Imagens/trilhas.jpg` |
+| Player | `/Imagens/video.jpg` |
+| Activities | `/Imagens/atividades.jpg` |
+| eBook | `/Imagens/ebook.jpg` |
+
+---
+
+# 📈 Results Achieved
+
+- ~40% reduction in critical production defects after regression formalization
+- Over 95% requirement coverage mapped through RTM
+- Significant reduction in development rework
+- Increased release predictability
+- Standardized QA processes
+- Faster onboarding of new QA team members
+
+---
+
+# 📂 Artifacts Produced
+
+- Requirements Traceability Matrix (RTM)
+- Structured Test Cases
+- Mobile Regression Checklist
+- Sprint Validation Reports
+- Detailed Defect Reports with Evidence
+
+---
+
+# 🚀 Technical Differentials
+
+- Strong expertise in Android fragmentation testing
+- Advanced cross-device synchronization validation
+- Deep interruption and session recovery testing
+- Risk-oriented testing mindset
+- Preventive QA approach (defects caught before production)
+
+---
+
+# 🤝 Conclusion
+
+This project consolidated my specialization in **Mobile QA**, strengthening expertise in:
+
+- Regression strategy
+- Risk management
+- Cross-platform validation
+- Device fragmentation
+- User experience validation
+- Release quality governance
+
+Project conducted with focus on stability, predictability, and continuous quality improvement.
